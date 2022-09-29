@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container h3 {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.stopwatch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.stopwatch h1 {
+    font-size: 48px;
+}
+
+button {
+    padding: 10px 40px;
+    border: none;
+    background: rgb(3, 76, 73);
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+}
